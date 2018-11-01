@@ -15,8 +15,6 @@ namespace OmronPlc
 	private:
 		int finsCommandLen = 0;
 		int finsResponseLen = 0;
-//		vector<uint8_t> cmdFS;
-		vector<uint8_t> respFS;
 		vector<uint8_t> respFins;
 		vector<uint8_t> respFinsData;
 		vector<uint8_t> cmdFins;
