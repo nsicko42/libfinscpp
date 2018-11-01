@@ -26,8 +26,8 @@ namespace OmronPlc
 	public:
 		udpFinsCommand(uint8_t ServiceID = 0x02);
 		~udpFinsCommand();
-		bool Connect();
-		void Close();
+		virtual bool Connect();
+		virtual void Close();
 		virtual void SetRemote(string ipaddr, uint16_t port);
 		virtual bool MemoryAreaRead(MemoryArea area, uint16_t address, uint8_t bit_position, uint16_t count);
 		virtual bool MemoryAreaWrite(MemoryArea area, uint16_t address, uint8_t bit_position, uint16_t count, uint8_t data[]);
