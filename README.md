@@ -1,4 +1,4 @@
-# libfinsc
+# libfinscpp
 Omron FINS Client Library
 =============
 
